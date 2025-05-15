@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent{
+        {label "server-1"}
+    }
 
     tools {
         // Install the Maven version configured as "Maven399" and add it to the path.
